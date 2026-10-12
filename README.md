@@ -2,6 +2,8 @@
 
 I'm a software engineer who builds full-stack web and mobile products end to end: React and React Native front ends, Django and Supabase back ends, payments, background jobs, CI and deployment. I've shipped apps to the App Store and run a live online shop.
 
+Open to senior software engineer and robotics / controls engineering roles, remote or in Knoxville, Nashville, Chattanooga, Lexington or Asheville.
+
 ## Featured projects
 
 ### 🖼️ [Collage Creations](https://github.com/bsav0016/collagecreations) – live at [collagecreations.org](https://collagecreations.org)
@@ -32,3 +34,8 @@ Keeps score on the course with no signal: rounds are written to on-device SQLite
 **Payments & services:** Stripe · RevenueCat · Sentry · Resend · Firebase
 **Infra & tooling:** Docker Compose · GitHub Actions · DigitalOcean · Heroku · EAS · Caddy · nginx
 **Testing:** Jest · Django test runner
+
+## Get in touch
+
+- Email: [bsav0016@gmail.com](mailto:bsav0016@gmail.com)
+- LinkedIn: [linkedin.com/in/brian-savidge](https://www.linkedin.com/in/brian-savidge)
