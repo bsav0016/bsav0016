@@ -18,10 +18,13 @@ Army Fitness Test scoring app with percentile rankings, a goal planner and saved
 Keeps score on the course with no signal: rounds are written to on-device SQLite and synced idempotently to Supabase. Includes friends and shared rounds with confirmation, QR invites, report/block tools, Apple and Google sign-in, and in-app account deletion. Type-checked and tested in CI.
 `Expo` `TypeScript` `SQLite` `Supabase` `PostgreSQL` `Jest`
 
+### 📈 [AlgoTracker](https://github.com/bsav0016/AlgoTrackerFrontend) – build, back-test and follow trading strategies
+Build strategies from seven technical indicators, back-test them on historical prices, and subscribe to get a push notification when one signals a trade. Expo / React Native app on a Django REST API: back-tests run server-side with pandas, a separate websocket worker streams a live price feed into RQ jobs, and credits are bought through Stripe or RevenueCat. The backend runs as a six-service Docker Compose stack behind Caddy. *(Backend repo is private; happy to walk through it.)*
+`React Native` `Expo` `TypeScript` `Django` `pandas` `Redis` `PostgreSQL` `Docker Compose` `Stripe`
+
 ## More projects
 
 - [Tax Projection](https://github.com/bsav0016/Tax-Projection) – browser-only wage projection with Excel export ([live](https://bsav0016.github.io/Tax-Projection/))
-- [AlgoTracker](https://github.com/bsav0016/AlgoTrackerFrontend) – build and back-test indicator trading strategies, with push-notified signals (Expo + Django, Docker Compose)
 - [Diagonal Duel](https://github.com/bsav0016/DiagonalDuelFrontend) – online and offline strategy board game with an alpha-beta AI and Elo ratings
 - [Math Mad Minute](https://github.com/bsav0016/MadMinute) – 60-second arithmetic drill app
 
