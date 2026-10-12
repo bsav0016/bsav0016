@@ -1,8 +1,15 @@
-# Hi, I'm Brian 👋
+# Brian Savidge — Software Engineer & Technical Lead
 
-I'm a software engineer who builds full-stack web and mobile products end to end: React and React Native front ends, Django and Supabase back ends, payments, background jobs, CI and deployment. I've shipped apps to the App Store and run a live online shop.
+I build and ship software products end to end, from architecture and backend services to mobile interfaces, payments, and production deployment.
 
-Open to senior software engineer and robotics / controls engineering roles, remote or in Knoxville, Nashville, Chattanooga, Lexington or Asheville.
+- **Product development:** Built and published mobile applications, including the AFT Score Calculator, with 84,000+ downloads.
+- **Full-stack engineering:** TypeScript, React, React Native, Python, Django, SQL, and cloud deployment.
+- **Technical leadership:** Army technical leader with experience leading developers and data teams and translating operational needs into software.
+- **Robotics:** M.S. in Computer Science from Georgia Tech, focused on computational perception and robotics, with hands-on UAS and sensor-fusion experience.
+
+I'm interested in senior software engineering, hands-on technical leadership, and robotics / controls engineering roles, particularly in defense tech, robotics, and software products. Open to remote, or in Knoxville, Nashville, Chattanooga, Lexington or Asheville.
+
+[LinkedIn](https://www.linkedin.com/in/brian-savidge) · [Email](mailto:bsav0016@gmail.com)
 
 ## Featured projects
 
@@ -37,8 +44,3 @@ Build strategies from seven technical indicators, back-test them on historical p
 **Payments & services:** Stripe · RevenueCat · Sentry · Resend · Firebase
 **Infra & tooling:** Docker Compose · GitHub Actions · DigitalOcean · Heroku · EAS · Caddy · nginx
 **Testing:** Jest · Django test runner
-
-## Get in touch
-
-- Email: [bsav0016@gmail.com](mailto:bsav0016@gmail.com)
-- LinkedIn: [linkedin.com/in/brian-savidge](https://www.linkedin.com/in/brian-savidge)
