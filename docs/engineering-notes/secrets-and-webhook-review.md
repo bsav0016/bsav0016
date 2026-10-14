@@ -28,7 +28,7 @@ In October 2026 I audited my own portfolio before making more of it public. I fo
 - **I rotated the Stripe key with a grace period, not a delete.** I did not know whether the leaked key was also the one my live shop used. I rolled it with a short overlap, swapped the new value onto the server, tested a real checkout, and let the old key expire. Deleting first would have broken checkout.
 - **I made the webhook fail closed.** If the secret is not configured, the endpoint rejects every request. A missing environment variable should never reopen the hole. The cost is that the secret must be set before deploying, and I documented the rollout order for that reason.
 - **I kept deployment out of pull-request checks.** CI runs tests, linting and a build on every pull request. Releases stay a separate, deliberate step.
-- **I left some noise in CI on purpose.** The AlgoTracker app has known type errors. The type check reports them without failing the build, and the README says so, because failing every pull request on old errors would train me to ignore the check.
+- **I let the type check report before I made it block.** The AlgoTracker app started with known type errors, and failing every pull request on old errors would have trained me to ignore the check. I fixed them afterwards and made the check required.
 
 ## What I do differently now
 
