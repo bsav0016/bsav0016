@@ -13,6 +13,13 @@ I'm interested in senior software engineering, hands-on technical leadership, an
 
 ## Featured projects
 
+<p>
+<a href="https://github.com/bsav0016/collagecreations"><img src="https://raw.githubusercontent.com/bsav0016/collagecreations/main/docs/screenshots/light-dark-preview.png" alt="Collage Creations: light and dark preview of a heart-shaped photo mosaic" width="24%"></a>
+<a href="https://github.com/bsav0016/ACFTScoreCalculatorFrontend"><img src="https://raw.githubusercontent.com/bsav0016/ACFTScoreCalculatorFrontend/main/docs/screenshots/calculator.png" alt="AFT Score Calculator: event results entered and scored" width="24%"></a>
+<a href="https://github.com/bsav0016/Discores"><img src="https://raw.githubusercontent.com/bsav0016/Discores/main/docs/screenshots/overview.png" alt="Discores: disc golf scorecard, course search and round history" width="24%"></a>
+<a href="https://github.com/bsav0016/AlgoTrackerFrontend"><img src="https://raw.githubusercontent.com/bsav0016/AlgoTrackerFrontend/master/docs/screenshots/backtest-results.png" alt="AlgoTracker: back-test chart with buy and sell markers and return, Sharpe and Sortino ratios" width="24%"></a>
+</p>
+
 ### 🖼️ [Collage Creations](https://github.com/bsav0016/collagecreations) – live at [collagecreations.org](https://collagecreations.org)
 An online shop that turns customers' photos into printed photo mosaics. React + TypeScript storefront with a real-time progress bar, Stripe checkout and sign-in (Google, Microsoft, emailed code); Django + Celery backend that builds the collage with OpenCV, stores images in object storage and deploys automatically from CI. *(Backend repo is private; happy to walk through it.)*
 `React` `TypeScript` `Vite` `Tailwind` `Django` `Celery` `Redis` `PostgreSQL` `OpenCV` `Stripe`
