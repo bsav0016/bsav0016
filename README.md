@@ -42,6 +42,10 @@ Build strategies from seven technical indicators, back-test them on historical p
 - [Diagonal Duel](https://github.com/bsav0016/DiagonalDuelFrontend) – online and offline strategy board game with an alpha-beta AI and Elo ratings
 - [Math Mad Minute](https://github.com/bsav0016/MadMinute) – 60-second arithmetic drill app
 
+## Engineering notes
+
+- [A security and correctness review of my own projects](docs/engineering-notes/secrets-and-webhook-review.md) – credentials in git history, an unauthenticated webhook and game-rule bugs: what I found, how I handled it and what I do differently now
+
 ## Tech
 
 **Languages:** TypeScript · JavaScript · Python
