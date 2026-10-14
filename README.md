@@ -33,7 +33,7 @@ Keeps score on the course with no signal: rounds are written to on-device SQLite
 `Expo` `TypeScript` `SQLite` `Supabase` `PostgreSQL` `Jest`
 
 ### 📈 [AlgoTracker](https://github.com/bsav0016/AlgoTrackerFrontend) – build, back-test and follow trading strategies
-Build strategies from seven technical indicators, back-test them on historical prices, and subscribe to get a push notification when one signals a trade. Expo / React Native app on a Django REST API: back-tests run server-side with pandas, a separate websocket worker streams a live price feed into RQ jobs, and credits are bought through Stripe or RevenueCat. The backend runs as a six-service Docker Compose stack behind Caddy. *(Backend repo is private; happy to walk through it.)*
+Build strategies from seven technical indicators, back-test them on historical prices, and subscribe to get a push notification when one signals a trade. Expo / React Native app on a Django REST API: back-tests run server-side with pandas, a separate websocket worker streams a live price feed into RQ jobs, and credits are bought through Stripe or RevenueCat. The backend runs as a six-service Docker Compose stack behind Caddy. The API is in [AlgoTrackerBackend](https://github.com/bsav0016/AlgoTrackerBackend).
 `React Native` `Expo` `TypeScript` `Django` `pandas` `Redis` `PostgreSQL` `Docker Compose` `Stripe`
 
 ## More projects
