@@ -14,10 +14,10 @@ I'm interested in senior software engineering, hands-on technical leadership, an
 ## Featured projects
 
 <p>
-<a href="https://github.com/bsav0016/collagecreations"><img src="https://raw.githubusercontent.com/bsav0016/collagecreations/main/docs/screenshots/light-dark-preview.png" alt="Collage Creations: light and dark preview of a heart-shaped photo mosaic" height="280"></a>
-<a href="https://github.com/bsav0016/ACFTScoreCalculatorFrontend"><img src="https://raw.githubusercontent.com/bsav0016/ACFTScoreCalculatorFrontend/main/docs/screenshots/calculator.png" alt="AFT Score Calculator: event results entered and scored" height="280"></a>
-<a href="https://github.com/bsav0016/Discores"><img src="https://raw.githubusercontent.com/bsav0016/Discores/main/docs/screenshots/overview.png" alt="Discores: disc golf scorecard, course search and round history" height="280"></a>
-<a href="https://github.com/bsav0016/AlgoTrackerFrontend"><img src="https://raw.githubusercontent.com/bsav0016/AlgoTrackerFrontend/master/docs/screenshots/backtest-results.png" alt="AlgoTracker: back-test chart with buy and sell markers and return, Sharpe and Sortino ratios" height="280"></a>
+<a href="https://github.com/bsav0016/collagecreations"><img src="https://raw.githubusercontent.com/bsav0016/collagecreations/main/docs/screenshots/light-dark-preview.png" alt="Collage Creations: light and dark preview of a heart-shaped photo mosaic" height="200"></a>
+<a href="https://github.com/bsav0016/ACFTScoreCalculatorFrontend"><img src="https://raw.githubusercontent.com/bsav0016/ACFTScoreCalculatorFrontend/main/docs/screenshots/calculator.png" alt="AFT Score Calculator: event results entered and scored" height="200"></a>
+<a href="https://github.com/bsav0016/Discores"><img src="https://raw.githubusercontent.com/bsav0016/Discores/main/docs/screenshots/overview.png" alt="Discores: disc golf scorecard, course search and round history" height="200"></a>
+<a href="https://github.com/bsav0016/AlgoTrackerFrontend"><img src="https://raw.githubusercontent.com/bsav0016/AlgoTrackerFrontend/master/docs/screenshots/backtest-results.png" alt="AlgoTracker: back-test chart with buy and sell markers and return, Sharpe and Sortino ratios" height="200"></a>
 </p>
 
 ### 🖼️ [Collage Creations](https://github.com/bsav0016/collagecreations) – live at [collagecreations.org](https://collagecreations.org)
