@@ -1,8 +1,8 @@
 # Brian Savidge — Software Engineer & Technical Lead
 
-I build and ship software products end to end, from architecture and backend services to mobile interfaces, payments, and production deployment.
+I build and ship software products end to end, from architecture and backend services to mobile interfaces, payments, and production deployment. Six years of software development.
 
-- **Product development:** Built and published mobile applications, including the AFT Score Calculator, with 84,000+ downloads.
+- **Product development:** Built and published mobile applications, including the AFT Score Calculator: 84,000+ downloads and a 4.8 average from 944 App Store ratings.
 - **Full-stack engineering:** TypeScript, React, React Native, Python, Django, SQL, and cloud deployment.
 - **Technical leadership:** Army technical leader with experience leading developers and data teams and translating operational needs into software.
 - **Robotics:** M.S. in Computer Science from Georgia Tech, focused on computational perception and robotics, with hands-on UAS and sensor-fusion experience.
@@ -25,7 +25,7 @@ An online shop that turns customers' photos into printed photo mosaics. React + 
 `React` `TypeScript` `Vite` `Tailwind` `Django` `Celery` `Redis` `PostgreSQL` `OpenCV` `Stripe`
 
 ### 🪖 [AFT Score Calculator](https://github.com/bsav0016/ACFTScoreCalculatorFrontend) – on the [App Store](https://apps.apple.com/us/app/updated-acft-score-calculator/id1619926227)
-Army Fitness Test scoring app with percentile rankings, a goal planner and saved results. Expo / React Native, with scoring tables generated from the official charts by Python scripts, and a Django API that computes privacy-preserving percentiles (no result is shown for groups under 20). *(Backend repo is private.)*
+Army Fitness Test scoring app with percentile rankings, a goal planner and saved results. Expo / React Native, with scoring tables generated from the official charts by Python scripts and checked cell by cell against the Army's published chart in tests, and a Django API that computes privacy-preserving percentiles (no result is shown for groups under 20). *(Backend repo is private.)*
 `React Native` `Expo` `JavaScript` `Django` `PostgreSQL` `EAS`
 
 ### ⛳ [Discores](https://github.com/bsav0016/Discores) – offline-first disc golf scorecard
@@ -54,4 +54,4 @@ Build strategies from seven technical indicators, back-test them on historical p
 **Data:** PostgreSQL · SQLite
 **Payments & services:** Stripe · RevenueCat · Sentry · Resend · Firebase
 **Infra & tooling:** Docker Compose · GitHub Actions · DigitalOcean · Heroku · EAS · Caddy · nginx
-**Testing:** Jest · Django test runner
+**Testing:** Jest · Vitest · Django test runner
