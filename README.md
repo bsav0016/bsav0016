@@ -18,6 +18,7 @@ I'm interested in senior software engineering, hands-on technical leadership, an
 <a href="https://github.com/bsav0016/ACFTScoreCalculatorFrontend"><img src="https://raw.githubusercontent.com/bsav0016/ACFTScoreCalculatorFrontend/main/docs/screenshots/calculator.png" alt="AFT Score Calculator: event results entered and scored" height="200"></a>
 <a href="https://github.com/bsav0016/Discores"><img src="https://raw.githubusercontent.com/bsav0016/Discores/main/docs/screenshots/overview.png" alt="Discores: disc golf scorecard, course search and round history" height="200"></a>
 <a href="https://github.com/bsav0016/AlgoTrackerFrontend"><img src="https://raw.githubusercontent.com/bsav0016/AlgoTrackerFrontend/master/docs/screenshots/backtest-results.png" alt="AlgoTracker: back-test chart with buy and sell markers and return, Sharpe and Sortino ratios" height="200"></a>
+<a href="https://github.com/bsav0016/DiagonalDuelFrontend"><img src="https://raw.githubusercontent.com/bsav0016/DiagonalDuelFrontend/master/docs/screenshots/game.png" alt="Diagonal Duel: game board with player chips showing whose turn it is" height="200"></a>
 <a href="https://github.com/bsav0016/RoboticLawnmower"><img src="https://raw.githubusercontent.com/bsav0016/RoboticLawnmower/main/docs/images/cart-overview.jpg" alt="Robotic Lawnmower prototype: Raspberry Pi 4 rover with GPS module, magnetometer and motor driver" height="200"></a>
 </p>
 
@@ -37,6 +38,10 @@ Keeps score on the course with no signal: rounds are written to on-device SQLite
 Build strategies from seven technical indicators, back-test them on historical prices, and subscribe to get a push notification when one signals a trade. Expo / React Native app on a Django REST API: back-tests run server-side with pandas, a separate websocket worker streams a live price feed into RQ jobs, and credits are bought through Stripe or RevenueCat. The backend runs as a six-service Docker Compose stack behind Caddy. The API is in [AlgoTrackerBackend](https://github.com/bsav0016/AlgoTrackerBackend).
 `React Native` `Expo` `TypeScript` `Django` `pandas` `Redis` `PostgreSQL` `Docker Compose` `Stripe`
 
+### 🎲 [Diagonal Duel](https://github.com/bsav0016/DiagonalDuelFrontend) – strategy board game, online and offline
+A four-in-a-row variant on an 8×8 board: play a computer opponent at 101 difficulty levels, a friend on one device, or a rated online opponent with day-long move time limits. The computer blends an alpha-beta search with iterative deepening, a one-move heuristic and random moves by level. Online games run on a Django REST API on Heroku that rebuilds the board from the move list to validate every move, plus Elo ratings, leaderboards and in-app account deletion. Expo / React Native client with type checking, lint and tests in CI. *(Backend repo is private.)*
+`React Native` `Expo` `TypeScript` `Django` `PostgreSQL` `Heroku` `Jest`
+
 ### 🤖 [Robotic Lawnmower](https://github.com/bsav0016/RoboticLawnmower) – GPS-navigating rover on a Raspberry Pi
 A self-driving rover platform built to become a lawnmower. A Raspberry Pi fuses GPS with a calibrated magnetometer heading using a Kalman filter, then steers the drive motors along waypoints in a mowing pattern. Includes magnetometer calibration, waypoint generation, controller-based manual control, and a wiring diagram. Field boundaries load from a gitignored `.env`, so no real locations are in the repo.
 `Python` `Raspberry Pi` `Kalman filter` `GPS` `Sensor fusion` `Motor control`
@@ -44,8 +49,7 @@ A self-driving rover platform built to become a lawnmower. A Raspberry Pi fuses 
 ## More projects
 
 - [Tax Projection](https://github.com/bsav0016/Tax-Projection) – browser-only wage projection with Excel export ([live](https://bsav0016.github.io/Tax-Projection/))
-- [Diagonal Duel](https://github.com/bsav0016/DiagonalDuelFrontend) – online and offline strategy board game with an alpha-beta AI and Elo ratings
-- [Math Mad Minute](https://github.com/bsav0016/MadMinute) – 60-second arithmetic drill app
+- [Math Mad Minute](https://github.com/bsav0016/MadMinute) – timed arithmetic drill app (30, 60 or 120 second rounds, quick presets, on-screen number pad)
 
 ## Engineering notes
 
