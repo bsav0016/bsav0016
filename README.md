@@ -31,7 +31,7 @@ Army Fitness Test scoring app with percentile rankings, a goal planner and saved
 `React Native` `Expo` `JavaScript` `Django` `PostgreSQL` `EAS`
 
 ### ⛳ [Discores](https://github.com/bsav0016/Discores) – offline-first disc golf scorecard
-Keeps score on the course with no signal: rounds are written to on-device SQLite and synced idempotently to Supabase. Includes friends and shared rounds with confirmation, QR invites, report/block tools, Apple and Google sign-in, and in-app account deletion. Type-checked and tested in CI.
+Keeps score on the course with no signal: rounds are written to on-device SQLite first, synced idempotently to Supabase, and restored from your account on a new phone. Deletes propagate across devices through server tombstones, and conflicts follow explicit rules (last-write-wins per score, earliest finish time). Includes friends and shared rounds with confirmation, QR invites, report/block tools, Apple and Google sign-in, and in-app account deletion. Versioned on-device migrations; Jest and real-Postgres SQL tests run in CI.
 `Expo` `TypeScript` `SQLite` `Supabase` `PostgreSQL` `Jest`
 
 ### 📈 [AlgoTracker](https://github.com/bsav0016/AlgoTrackerFrontend) – build, back-test and follow trading strategies
