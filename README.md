@@ -2,7 +2,7 @@
 
 I build and ship software products end to end, from architecture and backend services to mobile interfaces, payments, and production deployment. Six years of software development.
 
-- **Product development:** Built and published mobile applications, including the AFT Score Calculator: 84,000+ downloads and a 4.8 average from 944 App Store ratings.
+- **Product development:** Built and published mobile applications, including the AFT Score Calculator: 85,000+ downloads and a 4.8 average from 976 App Store ratings (as of 2 November 2026).
 - **Full-stack engineering:** TypeScript, React, React Native, Python, Django, SQL, and cloud deployment.
 - **Technical leadership:** Army technical leader with experience leading developers and data teams and translating operational needs into software.
 - **Robotics:** M.S. in Computer Science from Georgia Tech, focused on computational perception and robotics, with hands-on UAS and sensor-fusion experience, including a [GPS-navigating rover that's the prototype for a robotic lawnmower](https://github.com/bsav0016/RoboticLawnmower).
