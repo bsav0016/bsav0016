@@ -35,7 +35,7 @@ Keeps score on the course with no signal: rounds are written to on-device SQLite
 `Expo` `TypeScript` `SQLite` `Supabase` `PostgreSQL` `Jest`
 
 ### 📈 [AlgoTracker](https://github.com/bsav0016/AlgoTrackerFrontend) – build, back-test and follow trading strategies
-Build strategies from seven technical indicators, back-test them on historical prices, and subscribe to get a push notification when one signals a trade. Expo / React Native app on a Django REST API: back-tests run server-side with pandas, a separate websocket worker streams a live price feed into RQ jobs, and credits are bought through Stripe or RevenueCat. The backend runs as a six-service Docker Compose stack behind Caddy. The API is in [AlgoTrackerBackend](https://github.com/bsav0016/AlgoTrackerBackend).
+Build strategies from seven technical indicators, back-test them on historical prices, and subscribe to get a push notification when one signals a trade. Expo / React Native app on a Django REST API: back-tests run server-side with pandas, a separate websocket worker streams a live price feed into RQ jobs, and credits are bought through Stripe or RevenueCat. The backend is a seven-service Docker Compose stack behind Caddy. *Portfolio project: the production server is paused, so there is no live API; the repos show the design and tests.* The API is in [AlgoTrackerBackend](https://github.com/bsav0016/AlgoTrackerBackend).
 `React Native` `Expo` `TypeScript` `Django` `pandas` `Redis` `PostgreSQL` `Docker Compose` `Stripe`
 
 ### 🎲 [Diagonal Duel](https://github.com/bsav0016/DiagonalDuelFrontend) – strategy board game, online and offline
@@ -53,7 +53,7 @@ A self-driving rover platform built to become a lawnmower. A Raspberry Pi fuses 
 
 ## Engineering notes
 
-- [A security and correctness review of my own projects](docs/engineering-notes/secrets-and-webhook-review.md) – credentials in git history, an unauthenticated webhook and game-rule bugs: what I found, how I handled it and what I do differently now
+- [Security audit and remediation: what I found in my own projects and how I fixed it](docs/engineering-notes/security-audit-and-remediation.md) – credentials in git history, an unauthenticated webhook and game-rule bugs: what I found, how I handled it and what I do differently now
 
 ## Tech
 
