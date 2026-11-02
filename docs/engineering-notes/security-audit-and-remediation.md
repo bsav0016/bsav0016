@@ -1,4 +1,4 @@
-# A security and correctness review of my own projects
+# Security audit and remediation: what I found in my own projects and how I fixed it
 
 In October 2026 I audited my own portfolio before making more of it public. I found real problems: credentials committed to git history, an unauthenticated payment webhook, and rule bugs in a game server. This note covers what I found, how I handled it, and what I now do differently. I am publishing it because the history of these repositories shows the mistakes, and I would rather explain them than have a reviewer discover them.
 
@@ -39,9 +39,22 @@ In October 2026 I audited my own portfolio before making more of it public. I fo
 - CI actions are pinned to commit hashes, workflow permissions are read-only, and Dependabot raises updates.
 - Where my GitHub plan allows it (public repositories), branch protection requires the checks to pass before merging into the default branch.
 
+## Webhook authentication, as it works now
+
+Both payment webhooks in AlgoTracker authenticate every request before reading it:
+
+- **Stripe:** the raw body and the `Stripe-Signature` header go through `stripe.Webhook.construct_event` with the webhook signing secret, so a forged or tampered request is rejected.
+- **RevenueCat:** the `Authorization` header must equal a shared secret (`REVENUECAT_WEBHOOK_AUTH`), compared in constant time with `hmac.compare_digest`. If the secret is not configured, nothing is authorized (fail closed).
+- **Replays:** every credit change goes through a ledger that refuses to apply the same event key twice, so a redelivered webhook cannot credit an account twice.
+- **Tests:** the payment tests cover a bad Stripe signature, a missing, wrong or unconfigured RevenueCat secret, a user JWT used in place of the secret, malformed events, unknown products and redelivery.
+
+## Credential remediation status
+
+I rotated or revoked every credential that was exposed in history, and I have confirmed each one is no longer valid: the Stripe key, the Django `SECRET_KEY` values, the hosted-database client key and certificate, the market-data API key, and the SSH key pair behind `algo-tracker-ec2.pem` (status confirmed 2 November 2026). A pattern scan of the full history of every public repository found no other secrets, and secret scanning with push protection is on for the public repositories.
+
 ## Still true
 
-- The rotated values are still visible in the git history of those repositories. They no longer work.
+- The rotated values are still visible in the git history of those repositories, including the SSH private key file in AlgoTrackerBackend. They no longer work, and I chose not to rewrite history (see the decisions above).
 - These repositories have a single maintainer, so my own review is the only review. I would want a second pair of eyes on the webhook fix and the payment flow before putting real money through it again.
 
 ## How I worked
