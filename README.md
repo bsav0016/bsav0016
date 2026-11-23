@@ -49,7 +49,7 @@ A self-driving rover platform built to become a lawnmower. A Raspberry Pi fuses 
 ## More projects
 
 - [Tax Projection](https://github.com/bsav0016/Tax-Projection) – browser-only wage projection with Excel export ([live](https://bsav0016.github.io/Tax-Projection/))
-- [Math Mad Minute](https://github.com/bsav0016/MadMinute) – timed arithmetic drill app (30, 60 or 120 second rounds, quick presets, on-screen number pad)
+- [Math Mad Minute](https://github.com/bsav0016/MadMinute) – timed arithmetic drill app (30, 60 or 120 second rounds, trouble spots and a level for each times table, a daily goal and streak with a rest day, up to 12 players per device)
 
 ## Engineering notes
 
